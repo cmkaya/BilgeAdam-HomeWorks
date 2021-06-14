@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Birthdate", "Week4.Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.Algorithm", "Week4.Algorithm\Week4.Algorithm.csproj", "{C8561717-DE22-4BEB-99CB-47D6C1B6696C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.FindingName", "Week4.FindingName\Week4.FindingName.csproj", "{C59033DC-2571-46B5-88B9-303AB826F70D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C8561717-DE22-4BEB-99CB-47D6C1B6696C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8561717-DE22-4BEB-99CB-47D6C1B6696C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8561717-DE22-4BEB-99CB-47D6C1B6696C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59033DC-2571-46B5-88B9-303AB826F70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59033DC-2571-46B5-88B9-303AB826F70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59033DC-2571-46B5-88B9-303AB826F70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59033DC-2571-46B5-88B9-303AB826F70D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
