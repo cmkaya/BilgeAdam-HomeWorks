@@ -67,7 +67,7 @@ namespace Week5.CarDemo
                 EnginePos = rbFwd.Checked ? EnginePosition.FrontWheelDrive : (rbRwd.Checked ? EnginePosition.RearWheelDrive : EnginePosition.AllWheelDrive),
                 MaximumPower = Convert.ToDouble(nudMaxPower.Value),
                 EngineSize = Convert.ToInt16(nudEngineSize.Value),
-                Acceleration = Convert.ToInt16(nudAcceleration.Text),
+                Acceleration = Convert.ToDouble(nudAcceleration.Text),
                 ProductDate = dtpProductYear.Value.Date,
                 TopSpeed = Convert.ToInt32(nudTopSpeed.Value),
                 Type = (CarType)ddlCarType.SelectedIndex
@@ -79,10 +79,9 @@ namespace Week5.CarDemo
         private void btDisplay_Click(object sender, EventArgs e)
         {
             string specs = "";
-            string modifiedBrand =  carSpecification.Brand.Substring(0,1)+ carSpecification.Brand.Substring(1, carSpecification.Brand.Length - 1).ToLower();
             string modifiedGear = carSpecification.Gearbox ? "Manual" : "Automatic";
 
-            specs += "Brand: " + modifiedBrand + "\n";
+            specs += "Brand: " + carSpecification.Brand + "\n";
             specs += "Model: " + carSpecification.Model.Trim() + "\n";
             specs += "Car Type: " + carSpecification.Type + "\n";
             specs += "Product Date: " + carSpecification.DisplayProductDate + " \n";

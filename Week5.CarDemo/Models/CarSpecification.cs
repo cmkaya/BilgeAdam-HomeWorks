@@ -16,7 +16,7 @@ namespace Week5.CarDemo.Models
         public CarType Type { get; set; }
         public int TopSpeed { get; set; }
         public EnginePosition EnginePos { get; set; }
-        public short Acceleration { get; set; }
+        public double Acceleration { get; set; }
         public DateTime ProductDate
         {
             set => productDate_ = value;
