@@ -427,6 +427,12 @@ namespace Week5.CarDemo
             // 
             // nudAcceleration
             // 
+            this.nudAcceleration.DecimalPlaces = 1;
+            this.nudAcceleration.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.nudAcceleration.Location = new System.Drawing.Point(135, 259);
             this.nudAcceleration.Name = "nudAcceleration";
             this.nudAcceleration.Size = new System.Drawing.Size(191, 20);
