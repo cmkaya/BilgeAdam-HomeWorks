@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4.FindingName", "Week4.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5.CarDemo", "Week5.CarDemo\Week5.CarDemo.csproj", "{EDC57B36-3DC6-4980-8E33-96AFC5CD63E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week6.GeometricCalculatorDemo", "Week6.GeometricCalculatorDemo\Week6.GeometricCalculatorDemo.csproj", "{60514AB9-AA9A-495E-B772-2DF48B0EE4CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EDC57B36-3DC6-4980-8E33-96AFC5CD63E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC57B36-3DC6-4980-8E33-96AFC5CD63E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC57B36-3DC6-4980-8E33-96AFC5CD63E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60514AB9-AA9A-495E-B772-2DF48B0EE4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60514AB9-AA9A-495E-B772-2DF48B0EE4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60514AB9-AA9A-495E-B772-2DF48B0EE4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60514AB9-AA9A-495E-B772-2DF48B0EE4CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
